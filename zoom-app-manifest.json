@@ -29,7 +29,7 @@
     "title": "Hello World",
     "description": "Displays Hello World message during calls",
     "icon": "https://via.placeholder.com/64x64/667eea/ffffff?text=HW",
-    "url": "https://YOUR_USERNAME.github.io/zoom-hello-world-app",
+    "url": "https://hithesh111.github.io/zoom-hello-world-app",
     "width": 400,
     "height": 300
   },
@@ -37,8 +37,8 @@
     "name": "Your Name",
     "email": "your.email@example.com"
   },
-  "support": {
-    "url": "https://github.com/YOUR_USERNAME/zoom-hello-world-app",
+      "support": {
+      "url": "https://github.com/hithesh111/zoom-hello-world-app",
     "email": "support@your-domain.com"
   }
 }
