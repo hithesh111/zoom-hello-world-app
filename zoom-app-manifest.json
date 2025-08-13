@@ -1,0 +1,44 @@
+{
+  "name": "Hello World Zoom App",
+  "description": "A simple Zoom app that displays Hello World during calls",
+  "version": "1.0.0",
+  "app": {
+    "type": "meeting",
+    "categories": [
+      "productivity"
+    ],
+    "permissions": [
+      "meeting:read",
+      "meeting:write",
+      "participant:read"
+    ],
+    "capabilities": {
+      "meeting": {
+        "join": true,
+        "leave": true,
+        "state": true
+      },
+      "participant": {
+        "join": true,
+        "leave": true
+      }
+    }
+  },
+  "ui": {
+    "type": "panel",
+    "title": "Hello World",
+    "description": "Displays Hello World message during calls",
+    "icon": "https://via.placeholder.com/64x64/667eea/ffffff?text=HW",
+    "url": "https://YOUR_USERNAME.github.io/zoom-hello-world-app",
+    "width": 400,
+    "height": 300
+  },
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "support": {
+    "url": "https://github.com/YOUR_USERNAME/zoom-hello-world-app",
+    "email": "support@your-domain.com"
+  }
+}
